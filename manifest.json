@@ -1,0 +1,16 @@
+{
+    "browser_action": {
+      "browser_style": true,
+      "default_title": "List all cookies collected",
+      "default_popup": "cookies.html",
+      "default_icon": {
+        "19": "icons/cookieMonster.jpg"
+      }
+    },
+    "description": "List cookies.",
+    "homepage_url": "https://github.com/tnobal/cookie-monster",
+    "manifest_version": 2,
+    "name": "List cookies",
+    "version": "1.0",
+    "permissions": ["cookies","<all_urls>","tabs"]
+  }
